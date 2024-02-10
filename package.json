@@ -8,7 +8,7 @@
     "test": "node ace test",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
-    "build": "node ace build --production && cp .env build && cp -r tmp build",
+    "build": "node ace build --production && cp .env build",
     "migrations": "node ace migration:run",
     "rollback": "node ace migration:rollback",
     "reset": "node ace migration:fresh --seed"
